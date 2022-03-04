@@ -9,9 +9,13 @@ jinja2
 aiofiles
 
 
-#for database   #new
+#for database
 sqlalchemy
 psycopg2
 
-#for loading environment variables  #new
+#for loading environment variables
 python-dotenv
+
+
+#for email validation
+pydantic[email]
